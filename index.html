@@ -34,69 +34,96 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="meta"><strong>Color Stack 2048</strong> &middot; Android package <code>com.TigerTiger.TubeMerge</code><br>
-Effective date: 25 September 2026 &middot; Last updated: 25 September 2026</p>
+<p class="meta"><strong>Color Stack 2048</strong> &middot; Android and iOS &middot; app ID <code>com.TigerTiger.TubeMerge</code><br>
+Effective date: 27 September 2026 &middot; Last updated: 27 September 2026</p>
 
 <p>This Privacy Policy explains how <strong>TigerTiger</strong> ("we", "us") handles information in
-connection with the mobile game <strong>Color Stack 2048</strong> (the "Game"). By installing or
-playing the Game you agree to the practices described here.</p>
+connection with the mobile game <strong>Color Stack 2048</strong> (the "Game") on Android and iOS. By
+installing or playing the Game you agree to the practices described here. Where the two platforms
+differ, each section says which one it is talking about.</p>
 
 <h2>1. The short version</h2>
 <p>We do not ask you for your name, email address, phone number or postal address, and we do not run
-servers of our own. The Game keeps your progress on your own device. Some information is nevertheless
-collected by the services the Game is built on - Google's advertising, Google Play Games Services and
-Google Play billing, and, if you sign in, Unity Gaming Services, which hosts the Game's leaderboards -
-and this policy explains what those are.</p>
+servers of our own. Your progress is saved on your device and, if you are signed in to your platform's
+game service, also backed up to that service's cloud save so you can restore it. Some information is
+collected by the services the Game is built on - Google AdMob for advertising on both platforms; Google
+Play Games Services and Google Play billing on Android; Apple Game Center, iCloud and the App Store on
+iOS; and, for signed-in players, Unity Gaming Services, which hosts the Game's leaderboards - and this
+policy explains what those are.</p>
 
 <h2>2. Information collected</h2>
 
-<h3>2.1 Data stored on your device</h3>
+<h3>2.1 Your game progress</h3>
 <p>Your game progress - score, gold, gems, unlocked characters, levels, quests, settings, sound and
-vibration preferences, and tutorial state - is saved locally on your device. It stays on your device,
-is not readable by us, and is removed when you uninstall the Game.</p>
+vibration preferences, and tutorial state - is saved on your device, and we cannot read it.</p>
+<p>If you are signed in to <strong>Google Play Games</strong> (Android) or <strong>Game Center</strong>
+(iOS), a copy of that progress is also kept in your account's cloud save - Google Play Games Services
+on Android, Apple's iCloud on iOS - so you can restore it after reinstalling the Game or on a new
+device. The Game signs you in automatically when your device is already signed in to Play Games or
+Game Center; it is fully playable without either, and you can sign out in the Play Games app or in your
+iPhone's Game Center settings.</p>
+<p>The copy on your device is removed when you uninstall the Game. If your device's own backup (Android
+backup or iCloud Backup) is switched on, that backup may also contain it; that backup belongs to your
+Google or Apple account and is under your control, not ours.</p>
 
 <h3>2.2 Data collected by third-party services</h3>
 <table>
   <tr><th>Service</th><th>What it may collect</th><th>Why</th></tr>
   <tr>
-    <td><strong>Google AdMob</strong> (advertising)</td>
-    <td>Advertising ID, IP address, device and OS information, coarse (non-precise) location derived
-        from IP, and interactions with ads shown in the Game.</td>
+    <td><strong>Google AdMob</strong> (advertising; Android and iOS)</td>
+    <td>Your device's advertising identifier (on Android, the Android advertising ID; on iOS, Apple's
+        IDFA, and only if you allow tracking - see section 3), IP address, device and OS information,
+        coarse (non-precise) location derived from IP, and interactions with ads shown in the Game.</td>
     <td>To display interstitial and rewarded video ads, limit how often the same ad is shown, measure
         ad performance and detect invalid traffic.</td>
   </tr>
   <tr>
-    <td><strong>Google Play Games Services</strong> (optional sign-in)</td>
-    <td>Your Play Games player ID and public gamer profile name, your achievements and cloud-saved game
-        progress.</td>
-    <td>To sign you in, unlock achievements and let you restore your progress on another device. This
-        is optional - the Game is fully playable without signing in.</td>
+    <td><strong>Google Play Games Services</strong> (Android; sign-in, achievements, cloud save)</td>
+    <td>Your Play Games player ID and public gamer profile name, your achievements and your cloud-saved
+        game progress.</td>
+    <td>To sign you in, unlock achievements and let you restore your progress on another device. The
+        Game is fully playable without it.</td>
   </tr>
   <tr>
-    <td><strong>Unity Gaming Services</strong> (Authentication and Leaderboards; only when signed in)</td>
-    <td>A Unity player ID linked to your Google Play Games account, your Play Games gamer name, your
-        best scores in each game mode, and the technical information any online request carries (IP
-        address, device and OS information, an installation identifier).</td>
-    <td>To run the Game's leaderboards. Your gamer name and scores are shown <strong>publicly</strong> to
-        other players on those leaderboards. Nothing is sent to Unity if you never sign in.</td>
+    <td><strong>Apple Game Center</strong> (iOS; sign-in and achievements)</td>
+    <td>Your Game Center player identifiers and display name, and your achievements.</td>
+    <td>To sign you in and unlock achievements. The Game is fully playable without it.</td>
   </tr>
   <tr>
-    <td><strong>Google Play Billing</strong> (in-app purchases)</td>
-    <td>Purchase records and purchase tokens for the items you buy.</td>
-    <td>To deliver the gems or packs you purchased and to restore previous purchases. Payment card
-        details are handled entirely by Google - we never see or store them.</td>
+    <td><strong>Apple iCloud</strong> (iOS; cloud save)</td>
+    <td>Your cloud-saved game progress, stored under your Apple Account.</td>
+    <td>To let you restore your progress after reinstalling or on another device.</td>
   </tr>
   <tr>
-    <td><strong>Google Play in-app review and in-app updates</strong></td>
-    <td>Standard Google Play app and device information.</td>
-    <td>To offer an in-game rating prompt and to tell you when a newer version is available.</td>
+    <td><strong>Unity Gaming Services</strong> (Authentication and Leaderboards; Android and iOS, only
+        when signed in to Play Games or Game Center)</td>
+    <td>A Unity player ID linked to your Play Games or Game Center account, your Play Games or Game
+        Center name, your best scores in each game mode, and the technical information any online
+        request carries (IP address, device and OS information, an installation identifier).</td>
+    <td>To run the Game's leaderboards. Your name and scores are shown <strong>publicly</strong> to
+        other players on those leaderboards. Nothing is sent to Unity if you are not signed in.</td>
+  </tr>
+  <tr>
+    <td><strong>Google Play Billing</strong> (Android) and <strong>App Store In-App Purchase</strong>
+        (iOS)</td>
+    <td>Purchase records and purchase tokens or receipts for the items you buy.</td>
+    <td>To deliver the gems or packs you purchased and to restore previous purchases. Payment details
+        are handled entirely by Google or Apple - we never see or store them.</td>
+  </tr>
+  <tr>
+    <td><strong>Rating prompt and updates</strong> (Google Play in-app review and in-app updates on
+        Android; Apple's standard rating prompt on iOS)</td>
+    <td>Standard app and device information handled by Google or Apple.</td>
+    <td>To offer an in-game rating prompt, and on Android to tell you when a newer version is
+        available.</td>
   </tr>
 </table>
 
-<p>The Google services act as independent data controllers for the data they collect, and their
-handling of it is governed by Google's own privacy policy:
+<p>Google and Apple act as independent data controllers for the data their services collect, and their
+handling of it is governed by their own privacy policies:
 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>
-(see also <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">how Google uses data from AdMob partner apps</a>).
+(see also <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">how Google uses data from AdMob partner apps</a>)
+and <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a>.
 Unity Gaming Services processes leaderboard data on our behalf, as our service provider, under
 Unity's terms and privacy policy:
 <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">unity.com/legal/privacy-policy</a>.</p>
@@ -107,16 +134,24 @@ microphone or camera input, precise GPS location, health data, or any financial 
 The Game contains no third-party analytics SDK and no social network SDK.</p>
 
 <h2>3. Advertising and your choices</h2>
-<p>Ads in the Game are served by Google AdMob. Depending on your region and your settings, ads may be
-personalised (based on the advertising ID associated with your device) or non-personalised.</p>
+<p>Ads in the Game are served by Google AdMob. Depending on your region, your device settings and, on
+iOS, your answer to Apple's tracking prompt, ads may be personalised (based on your device's advertising
+identifier) or non-personalised.</p>
 <ul>
-  <li><strong>Android:</strong> open <em>Settings &rarr; Google &rarr; Ads</em> to delete or reset your
-      advertising ID, or to turn off ad personalisation entirely. Turning it off does not remove ads,
-      but the ads you see will no longer be based on your advertising ID.</li>
-  <li><strong>EEA, UK and Switzerland:</strong> the Game uses Google's consent form (a certified
-      consent management platform). No ad is requested until you have answered it, and your choice
-      decides whether the ads you see may be personalised. You can change your answer at any time from
-      <em>Settings &rarr; Privacy</em> in the Game.</li>
+  <li><strong>Android:</strong> the advertising ID is a setting of your phone, not of the Game. In your
+      device settings (usually <em>Settings &rarr; Security &amp; privacy &rarr; Privacy &rarr; Ads</em>,
+      or <em>Settings &rarr; Google &rarr; Ads</em> on older versions) you can delete or reset your
+      advertising ID, or opt out of ad personalisation. Turning it off does not remove ads, but the ads
+      you see will no longer be based on your advertising ID.</li>
+  <li><strong>iOS:</strong> the Game can only use your device's advertising identifier (IDFA) if you
+      allow it in Apple's App Tracking Transparency prompt. If you choose not to allow tracking, or are
+      never asked, the IDFA is not shared and the ads you see are not based on it. You can change your
+      answer at any time in <em>Settings &rarr; Privacy &amp; Security &rarr; Tracking</em> on your
+      iPhone.</li>
+  <li><strong>EEA, UK and Switzerland</strong> (both platforms): the Game uses Google's consent form (a
+      certified consent management platform). No ad is requested until you have answered it, and your
+      choice decides whether the ads you see may be personalised. You can change your answer at any
+      time from <em>Settings &rarr; Privacy</em> in the Game.</li>
   <li><strong>Removing ads:</strong> buying the Starter Pack permanently removes the timed
       full-screen ads shown between runs. Rewarded ads are not affected: they stay optional and appear
       only when you choose to watch one in exchange for an in-game reward.</li>
@@ -130,40 +165,48 @@ we will take appropriate steps.</p>
 
 <h2>5. Data retention and deletion</h2>
 <ul>
-  <li><strong>Local save data:</strong> deleted when you uninstall the Game or clear its app data.</li>
-  <li><strong>Cloud save and achievements:</strong> held by Google Play Games Services under your
-      Google account. You can delete this data yourself at
+  <li><strong>Data on your device:</strong> deleted when you uninstall the Game (or, on Android, clear
+      its app data). A device backup you have switched on is managed through your Google or Apple
+      account.</li>
+  <li><strong>Cloud save and achievements - Android:</strong> held by Google Play Games Services under
+      your Google account. You can delete this data yourself at
       <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">myaccount.google.com</a>
       or from the Play Games app under <em>Settings &rarr; Delete Play Games account &amp; data</em>.</li>
+  <li><strong>Cloud save and achievements - iOS:</strong> held by Apple under your Apple Account, in
+      iCloud and Game Center. You can remove the Game's iCloud data from your iPhone's iCloud storage
+      settings, and request a copy or deletion of your Apple data at
+      <a href="https://privacy.apple.com" target="_blank" rel="noopener">privacy.apple.com</a>.</li>
   <li><strong>Leaderboard entries:</strong> held by Unity Gaming Services in the Game's own project.
       Weekly leaderboards are cleared every week; all-time leaderboards are kept for as long as the Game
-      runs them. Deleting your Google data does <strong>not</strong> remove these entries - to have your
-      Unity player record and your scores deleted, email us at the address in section 9 and we will
-      delete them.</li>
+      runs them. Deleting your Google or Apple data does <strong>not</strong> remove these entries - to
+      have your Unity player record and your scores deleted, email us at the address in section 9 and we
+      will delete them.</li>
   <li><strong>Advertising data:</strong> retained by Google according to Google's own retention
-      policies; reset or delete your advertising ID as described in section 3.</li>
-  <li><strong>Purchase records:</strong> retained by Google Play as part of your Google account order
-      history.</li>
+      policies; reset or delete your advertising ID, or withdraw tracking permission, as described in
+      section 3.</li>
+  <li><strong>Purchase records:</strong> retained by Google Play or the App Store as part of your
+      account's purchase history.</li>
 </ul>
 <p>Apart from leaderboard entries, we do not hold a copy of your data ourselves, so other deletion
-requests are best made through the Google controls above. If you need help, write to us and we will
-point you to the right place.</p>
+requests are best made through the Google and Apple controls above. If you need help, write to us and
+we will point you to the right place.</p>
 
 <h2>6. Your rights</h2>
 <p>Depending on where you live, you may have the right to access, correct, delete or export personal
 data relating to you, to object to or restrict its processing, and to withdraw consent - for example
 under the EU/UK <strong>GDPR</strong>, the <strong>California Consumer Privacy Act (CCPA/CPRA)</strong>,
 Brazil's <strong>LGPD</strong> or Turkey's <strong>KVKK</strong>. We do not sell personal information
-for money. Where personalised ads are shown, Google AdMob's use of your advertising ID may count as
-"sharing" for cross-context behavioural advertising under the CCPA; you can opt out of that at any time
-by turning off ad personalisation as described in section 3. To exercise a right, contact us at the
-address in section 9; we will handle leaderboard data ourselves, and where the data is held by Google
-we will tell you which Google control applies.</p>
+for money. Where personalised ads are shown, Google AdMob's use of your advertising identifier may count
+as "sharing" for cross-context behavioural advertising under the CCPA; you can opt out of that at any
+time by turning off ad personalisation (Android) or not allowing tracking (iOS), as described in
+section 3. To exercise a right, contact us at the address in section 9; we will handle leaderboard data
+ourselves, and where the data is held by Google or Apple we will tell you which of their controls
+applies.</p>
 
 <h2>7. Security</h2>
-<p>Data transmitted between the Game and Google's and Unity's services is protected in transit by industry-standard
-encryption (HTTPS/TLS). No method of transmission or storage is completely secure, and we cannot
-guarantee absolute security.</p>
+<p>Data transmitted between the Game and Google's, Apple's and Unity's services is protected in transit
+by industry-standard encryption (HTTPS/TLS). No method of transmission or storage is completely secure,
+and we cannot guarantee absolute security.</p>
 
 <h2>8. Changes to this policy</h2>
 <p>We may update this policy from time to time. The effective date at the top of the page always shows
